@@ -146,6 +146,23 @@ A：设置环境变量 `SERVER_PORT=8081` 后重启应用，或结束占用 8080
 **Q：生产环境要注意什么？**  
 A：务必设置足够长的随机 `JWT_SECRET`，不要使用默认密钥。
 
+## 发布到 GitHub
+
+本地已完成 Git 初始化与首次提交。推送到 GitHub 的步骤：
+
+1. 在 GitHub 新建空仓库（例如 `springboot-task-demo`，**不要**勾选「Add a README」）
+2. 若仓库地址与默认不同，修改远程地址：
+   ```bash
+   git remote set-url origin https://github.com/你的用户名/仓库名.git
+   ```
+3. 推送代码：
+   ```bash
+   git push -u origin main
+   ```
+   Windows 也可双击运行 `push-to-github.bat`。
+
+默认远程地址：`https://github.com/helvijs/springboot-task-demo.git`（可按需修改）。
+
 ## 许可证
 
 本项目仅供学习与交流使用。
