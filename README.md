@@ -161,7 +161,7 @@ A：务必设置足够长的随机 `JWT_SECRET`，不要使用默认密钥。
    ```
    Windows 也可双击运行 `push-to-github.bat`。
 
-默认远程地址：`https://github.com/helvijs/springboot-task-demo.git`（可按需修改）。
+仓库地址：https://github.com/cokesoso/springboot-task-demo
 
 ## 许可证
 
